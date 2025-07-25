@@ -106,31 +106,34 @@
                     <img class="badge" src="./assets/trusted-badge.png" alt="">
                 </div>
                 <div class="badge-text">
-                    <h2 class="badge-title">Flower & Plants Lover</h2>
-                    <p>Indulge your senses with the
-                        beauty and fragrance of our fresh flower shop.
-                        From classic roses to exotic blooms,
-                        we offer a wide variety of fresh.
-                    </p>
-                    <p>Indulge your senses with the beauty and
-                        fragrance of our fresh flower shop.
-                        From classic roses to exotic blooms, we offer a wide
-                        variety of fresh.
-                    </p>
-                    <p>Indulge your senses with the beauty and
-                        fragrance of our fresh flower shop. From classic
-                        roses to exotic blooms, we offer a wide variety
-                        of fresh.
-                    </p>
+                    <h2 class="text-2xl lg:text-5xl font-bold lg:w-2/3 mb-4">Flower & Plants Lover</h2>
+                    <div class="space-y-3 text-gray-400">
+                        <li>Indulge your senses with the
+                            beauty and fragrance of our fresh flower shop.
+                            From classic roses to exotic blooms,
+                            we offer a wide variety of fresh.
+                        </li>
+                        <li>Indulge your senses with the beauty and
+                            fragrance of our fresh flower shop.
+                            From classic roses to exotic blooms, we offer a wide
+                            variety of fresh.
+                        </li>
+                        <li>Indulge your senses with the beauty and
+                            fragrance of our fresh flower shop. From classic
+                            roses to exotic blooms, we offer a wide variety
+                            of fresh.
+                        </li>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <!-- lastest deal section -->
-        <div class="latest-deal-section pt-20 text-center">
+        <div class="latest-deal-section py-10 lg:py-20 text-center mx-3 lg:mx-20">
             <h2 class="text-3xl font-bold  text-center"><span class="primary-color ">Latest</span> Deals</h2>
-            <p class="my-3 text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="my-3 text-xl mx-3 lg:mx-20">Indulge your senses with the beauty and fragrance of our fresh flower
+                shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
             <!-- container -->
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -158,7 +161,7 @@
                 </div>
 
                 <!-- Right Column (Large Card spans 2 columns on desktop) -->
-                <div class="relative rounded-xl overflow-hidden h-84 lg:col-span-2">
+                <div class="relative rounded-xl overflow-hidden h-40 lg:h-84 lg:col-span-2">
                     <img src="./assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover">
                     <div
                         class="absolute inset-0  bg-opacity-40 flex flex-col justify-center items-center text-white px-4 text-center">
@@ -169,10 +172,51 @@
             </div>
         </div>
 
+        <!-- subcription section -->
+        <section class="bg-cover bg-center h-64 lg:h-[500px] flex items-center justify-center px-4"
+            style="background-image: url('./assets/news-letter-bg.png');">
+            <div class="text-center text-white max-w-xl w-full space-y-6">
+                <h1 class="text-3xl md:text-5xl font-bold">
+                    Join the <span class="text-white-400">colorful</span> Bunch
+                </h1>
 
+                <form class="flex flex-col sm:flex-row items-center justify-center w-full">
+                    <input type="email" placeholder="Write email"
+                        class=" bg-white w-full sm:w-2/3 px-4 py-3 rounded-l-md sm:rounded-none sm:rounded-l-md text-black focus:outline-none" />
+                    <button type="submit"
+                        class="mt-2 sm:mt-0 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md sm:rounded-r-md sm:rounded-l-none">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="mx-3 lg:mx-20 py-10 lg:py-16 lg:flex justify-between text-gray-400">
+        <div>
+            <img src="./assets/logo.png" alt="">
+            <p class="my-3">Indulge your senses with the beauty <br> and fragrance of our fresh flower shop. </p>
+        </div>
+        <div class="list-none space-y-3">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+        </div>
+        <div class="list-none space-y-3">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Help Center</li>
+        </div>
+        <div class="flex gap-4 mt-4 lg:mt-0">
+            <img class="h-8" src="./assets/icon-linkedin.png" alt="">
+            <img class="h-8" src="./assets/icon-youtube.png" alt="">
+            <img class="h-8" src="./assets/icon-facebook.png" alt="">
+            <img class="h-8" src="./assets/icon-twitter.png" alt="">
+        </div>
 
     </footer>
 
