@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my assigenment no 2 </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,10 +35,11 @@
                 <li><a href=""><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
             </ul>
         </nav>
-        <div class="banner">
+        <div class="banner lg:mt-20">
             <div class="banner-contant">
-                <h1>ALWAYS <span class="primary-color">FRESH FLOWER</span></h1>
-                <P class="banner-description">
+                <h1 class="text-4xl lg:text-6xl font-bold my-5 lg:my-0 noto-font">ALWAYS <span class="primary-color">FRESH
+                        FLOWER</span></h1>
+                <P class="mt-5 text-gray-400 inter-font">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
                 </P>
@@ -38,9 +50,10 @@
     </header>
     <main>
         <!-- Our plants -->
-        <section class="our-plant-section">
-            <h2 class="section-title"><span class="primary-color">Our</span> Plants</h2>
-            <p class="description-card">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+        <section class="our-plant-section inter-font">
+            <h2 class="section-title font-bold noto-font"><span class="primary-color">Our</span> Plants</h2>
+            <p class="description-card my-3">Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                From
                 classic roses to exotic
                 blooms, we offer a wide variety of fresh.
             </p>
@@ -106,8 +119,8 @@
                     <img class="badge" src="./assets/trusted-badge.png" alt="">
                 </div>
                 <div class="badge-text">
-                    <h2 class="text-2xl lg:text-5xl font-bold lg:w-2/3 mb-4">Flower & Plants Lover</h2>
-                    <div class="space-y-3 text-gray-400">
+                    <h2 class="text-2xl lg:text-5xl font-bold lg:w-2/3 mb-4 noto-font">Flower & Plants Lover</h2>
+                    <div class="space-y-3 text-gray-400 inter-font">
                         <li>Indulge your senses with the
                             beauty and fragrance of our fresh flower shop.
                             From classic roses to exotic blooms,
@@ -131,8 +144,8 @@
 
         <!-- lastest deal section -->
         <div class="latest-deal-section py-10 lg:py-20 text-center mx-3 lg:mx-20">
-            <h2 class="text-3xl font-bold  text-center"><span class="primary-color ">Latest</span> Deals</h2>
-            <p class="my-3 text-xl mx-3 lg:mx-20">Indulge your senses with the beauty and fragrance of our fresh flower
+            <h2 class="text-3xl font-bold  text-center noto-font"><span class="primary-color ">Latest</span> Deals</h2>
+            <p class="my-3 text-xl mx-3 lg:mx-20 inter-font">Indulge your senses with the beauty and fragrance of our fresh flower
                 shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
             <!-- container -->
@@ -144,8 +157,8 @@
                         <img src="./assets/deal-bloom.png" alt="Bloom Plant" class="w-full h-full object-cover">
                         <div
                             class="absolute inset-0  bg-opacity-40 flex flex-col justify-center items-center px-4 text-white">
-                            <p class="font-bold text-lg">60% Off | Bloom Plant</p>
-                            <button class="mt-1 underline">Shop Now</button>
+                            <p class="font-bold text-lg noto-font">60% Off | Bloom Plant</p>
+                            <button class="mt-1 underline inter-font">Shop Now</button>
                         </div>
                     </div>
 
@@ -154,8 +167,8 @@
                         <img src="./assets/deal-ana.png" alt="Ana Plant" class="w-full h-full object-cover">
                         <div
                             class="absolute inset-0  bg-opacity-40 flex flex-col justify-center items-center px-4 text-white">
-                            <p class="font-bold text-lg">30% Off | Ana Plant</p>
-                            <button class="mt-1 underline">Shop Now</button>
+                            <p class="font-bold text-lg noto-font">30% Off | Ana Plant</p>
+                            <button class="mt-1 underline inter-font">Shop Now</button>
                         </div>
                     </div>
                 </div>
@@ -165,8 +178,8 @@
                     <img src="./assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover">
                     <div
                         class="absolute inset-0  bg-opacity-40 flex flex-col justify-center items-center text-white px-4 text-center">
-                        <p class="text-2xl md:text-3xl font-bold">25% Off | Zabo Plant</p>
-                        <button class="mt-2 underline text-lg">Shop Now</button>
+                        <p class="text-2xl md:text-3xl font-bold noto-font">25% Off | Zabo Plant</p>
+                        <button class="mt-2 underline text-lg inter-font">Shop Now</button>
                     </div>
                 </div>
             </div>
@@ -176,7 +189,7 @@
         <section class="bg-cover bg-center h-64 lg:h-[500px] flex items-center justify-center px-4"
             style="background-image: url('./assets/news-letter-bg.png');">
             <div class="text-center text-white max-w-xl w-full space-y-6">
-                <h1 class="text-3xl md:text-5xl font-bold">
+                <h1 class="text-3xl md:text-5xl font-bold noto-font">
                     Join the <span class="text-white-400">colorful</span> Bunch
                 </h1>
 
@@ -184,7 +197,7 @@
                     <input type="email" placeholder="Write email"
                         class=" bg-white w-full sm:w-2/3 px-4 py-3 rounded-l-md sm:rounded-none sm:rounded-l-md text-black focus:outline-none" />
                     <button type="submit"
-                        class="mt-2 sm:mt-0 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md sm:rounded-r-md sm:rounded-l-none">
+                        class="inter-font mt-2 sm:mt-0 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md sm:rounded-r-md sm:rounded-l-none">
                         Subscribe
                     </button>
                 </form>
@@ -192,7 +205,7 @@
         </section>
     </main>
 
-    <footer class="mx-3 lg:mx-20 py-10 lg:py-16 lg:flex justify-between text-gray-400">
+    <footer class="inter-font mx-3 lg:mx-20 py-10 lg:py-16 lg:flex justify-between text-gray-400">
         <div>
             <img src="./assets/logo.png" alt="">
             <p class="my-3">Indulge your senses with the beauty <br> and fragrance of our fresh flower shop. </p>
